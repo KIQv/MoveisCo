@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Móveis Modernos</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Móveis Co.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <section id="hero">
+      <h1>Móveis Modernos para Casas Estilosas</h1>
+      <p>Descubra nossa linha de móveis contemporâneos que trazem conforto e elegância para qualquer ambiente.</p>
+      <a href="#products" class="btn">Explore Agora</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="products" class="products-section">
+      <h2>Nossos Produtos em Destaque</h2>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="img/sofa.jpg" alt="Sofá">
+          <h3>Sofá Confortável</h3>
+          <p>Sofá elegante e aconchegante para realçar sua sala de estar.</p>
+        </div>
+        <div class="product-card">
+          <img src="img/mesa.jpg" alt="Conjunto de Jantar">
+          <h3>Conjunto de Jantar</h3>
+          <p>Conjunto de jantar estiloso para sua sala de jantar moderna.</p>
+        </div>
+        <div class="product-card">
+          <img src="img/cadeira.jpg" alt="Cadeira">
+          <h3>Cadeira Clássica</h3>
+          <p>Bela cadeira, perfeita para qualquer espaço em sua casa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Entre em Contato</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Seu Nome" required>
+        <input type="email" id="email" placeholder="Seu E-mail" required>
+        <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Móveis Co. | Desenvolvido com ♥</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
